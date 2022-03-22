@@ -31,7 +31,7 @@ function Page() {
                 if I know React</li>
             </ol>
             <footer>
-                © 2021 Nadia development. All rights reserved.
+                <small> © 2021 Nadia development. All rights reserved.</small>
             </footer>
         </div>
     )
