@@ -1,25 +1,27 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react"
+import ReactDOM from "react-dom"
 
-/**
-Challenge: 
-
-Part 1: Create a page of your own using a custom Page component
-
-It should return an ordered list with the reasons why you're
-excited to be learning React :)
-
-Render your list to the page
-
- */
-
-
-function LearningReact (){
-    return (<ol>
-       <li> That is easy</li>
-       <li> It is reausable </li>
-    </ol>
+function Page() {
+    return (
+        <div>
+          <header>
+           <nav>
+            <img src ="./react-logo.png" width="10px"/>
+            <h1> Reasons I'm excited to learn React</h1>
+           </nav>
+        
+         </header>
+         <ol>
+            <li>It's a popular library, so I'll be 
+            able to fit in with the cool kids!</li>
+            <li>I'm more likely to get a job as a developer
+            if I know React</li>
+         </ol>
+         <footer> 
+           <p>© 20xx last name here development. All rights reserved.</p>
+         </footer>
+        </div>
     )
 }
 
-ReactDOM.render(<LearningReact/>, document.getElementById("root"));
+ReactDOM.render(<Page />, document.getElementById("root"))
